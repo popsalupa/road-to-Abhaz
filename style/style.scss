@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
     background: #000;
-    .title-h1{
-        color: yellow;
-        position: absolute;
-        top: 10%;
-        left: 35%;
-        right: 35%;
-        z-index: 2;
-    
-    }
+}
+.name-logo {
+    text-transform:uppercase ;
 }
 .container-fluid{
     padding: 0%;
@@ -19,8 +14,30 @@ body{
     .carousel-bar .carousel-item{
         display: flex;
         max-height: 500px;
-        // position: relative;
         img{
         object-fit: cover;
         }
     }
+.main-name {
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 20px;
+    margin-top: 20px;
+   }
+   
+            .news{
+                margin-top: 70px;
+                border: solid 1px white;
+                   
+                h3:after {
+                    content: '';
+                    display: block;
+                    height: 1px;
+                    background: #fff;
+                    width: 150px;
+                    margin-top: 10px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+         
