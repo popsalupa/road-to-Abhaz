@@ -12,7 +12,7 @@
 <body>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark header-menu">
+   <header class="navbar navbar-expand-lg navbar-dark bg-dark header-menu position-sticky">
     <div class="container">
             <a href="#" class="navbar-brand name-logo">road to abhazia</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -20,7 +20,7 @@
         <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+        <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
             <ul class="navbar-nav mb-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link">what to see</a>
@@ -42,11 +42,36 @@
                     <a href="#" class="nav-link">advice</a>
                 </li>
             </ul>
-        </div>
+        </div> -->
+
+           <nav class="navbar navbar-dark bg-dark px-4 justify-content-end" id="navbar-example2">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a href="#scrollspyHeading1" class="nav-link">what to see</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#scrollspyHeading2" class="nav-link">interesting places</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#scrollspyHeading3" class="nav-link">about country</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#scrollspyHeading4" class="nav-link">gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#scrollspyHeading5" class="nav-link">advice</a>
+                </li>
+            </ul>
+        </nav>
+
     </div>
-   </nav>
+    </header>
    
-    <main>
+    <nav>
         <div class="container-fluid carousel-bar">
             <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -69,9 +94,6 @@
                         <img src="https://images.unsplash.com/photo-1598523136639-83ae1837d9f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="https://images.unsplash.com/photo-1631170706315-707ecc9f158b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
                         <img src="https://img.geliophoto.com/abkhazia/00_abkhazia.jpg" class="d-block w-100" alt="...">
                     </div>
                     </div>
@@ -85,17 +107,17 @@
                 </button>
             </div>
         </div>
-    </main>
+    </nav>
     
     <h1 class="text-center main-name text-light w-100">ours roadtrip</h1>
     
-    <nav class="container-lg">
+    <section class="container-lg">
         <p class="text-center text-light">
             a journey of a thousand miles begins with the first step...
         </p>
-    </nav>
+    </section>
 
-    <header class="container-sm text-light article-theme">
+    <main class="container-sm text-light article-theme">
         <main class="row justify-content-between">
 
             <article class="col-md-5 text-center news">
@@ -332,8 +354,34 @@
                 </div>
             </article>
         </main>      
-    </header>
+    </main>
 
+    <article class="container-md">
+        <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h2 id="scrollspyHeading1" class="text-center text-light what-to-see mb-xxl-5">what to see</h2>
+            <p class="text-center text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vel architecto sit optio officia hic totam iure, accusantium corporis deleniti magnam voluptatum. Architecto quidem in, natus blanditiis optio accusamus, corporis repellendus quia ratione fugit distinctio sapiente placeat non perspiciatis expedita eligendi cupiditate ab ut. Blanditiis illo, tempora fuga ipsa qui inventore eos consequuntur dolorem expedita quo obcaecati sit? Quos, accusamus numquam voluptates repellendus consectetur facere exercitationem quisquam vel praesentium, consequatur, molestiae vitae nulla tenetur deserunt! Quas, pariatur magnam! Quod, dolorem dicta, natus soluta a, quia culpa dolores illum aperiam ad sapiente quae omnis fugit magnam sunt reprehenderit. Consectetur, harum vero!</p>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h2  id="scrollspyHeading2" class="text-center text-light what-to-see mb-xxl-5">interesting places</h2>
+            <p class="text-center text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veniam quod ipsum odit ad modi ab laboriosam, qui itaque in aspernatur recusandae nemo expedita aperiam quam id. Illum vitae ipsa incidunt, distinctio molestias nobis tempora, quasi id odio fuga culpa neque aliquid deleniti numquam sequi. Doloremque tempore ex accusamus eaque ipsa numquam explicabo? Ratione aperiam minima laudantium ab perferendis quaerat, ut quae fugiat tempora cum, adipisci, ipsum voluptas quis labore! Quo dicta deserunt veniam. Veritatis dignissimos a neque eveniet ipsam repudiandae sit. Harum ex nihil atque incidunt optio debitis eius neque recusandae mollitia fugiat ut, qui facere, nesciunt tenetur eos?</p>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h2  id="scrollspyHeading3" class="text-center text-light what-to-see">about country</h2>
+            <p class="text-center text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veniam quod ipsum odit ad modi ab laboriosam, qui itaque in aspernatur recusandae nemo expedita aperiam quam id. Illum vitae ipsa incidunt, distinctio molestias nobis tempora, quasi id odio fuga culpa neque aliquid deleniti numquam sequi. Doloremque tempore ex accusamus eaque ipsa numquam explicabo? Ratione aperiam minima laudantium ab perferendis quaerat, ut quae fugiat tempora cum, adipisci, ipsum voluptas quis labore! Quo dicta deserunt veniam. Veritatis dignissimos a neque eveniet ipsam repudiandae sit. Harum ex nihil atque incidunt optio debitis eius neque recusandae mollitia fugiat ut, qui facere, nesciunt tenetur eos?</p>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h2  id="scrollspyHeading4" class="text-center text-light what-to-see">gallary</h2>
+            <p class="text-center text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veniam quod ipsum odit ad modi ab laboriosam, qui itaque in aspernatur recusandae nemo expedita aperiam quam id. Illum vitae ipsa incidunt, distinctio molestias nobis tempora, quasi id odio fuga culpa neque aliquid deleniti numquam sequi. Doloremque tempore ex accusamus eaque ipsa numquam explicabo? Ratione aperiam minima laudantium ab perferendis quaerat, ut quae fugiat tempora cum, adipisci, ipsum voluptas quis labore! Quo dicta deserunt veniam. Veritatis dignissimos a neque eveniet ipsam repudiandae sit. Harum ex nihil atque incidunt optio debitis eius neque recusandae mollitia fugiat ut, qui facere, nesciunt tenetur eos?</p>
+        </section>
+
+        <section data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h2  id="scrollspyHeading5" class="text-center text-light what-to-see">advice</h2>
+            <p class="text-center text-light"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, veniam quod ipsum odit ad modi ab laboriosam, qui itaque in aspernatur recusandae nemo expedita aperiam quam id. Illum vitae ipsa incidunt, distinctio molestias nobis tempora, quasi id odio fuga culpa neque aliquid deleniti numquam sequi. Doloremque tempore ex accusamus eaque ipsa numquam explicabo? Ratione aperiam minima laudantium ab perferendis quaerat, ut quae fugiat tempora cum, adipisci, ipsum voluptas quis labore! Quo dicta deserunt veniam. Veritatis dignissimos a neque eveniet ipsam repudiandae sit. Harum ex nihil atque incidunt optio debitis eius neque recusandae mollitia fugiat ut, qui facere, nesciunt tenetur eos?</p>
+        </section>
+    </article>
 
 </body>
 </html>
