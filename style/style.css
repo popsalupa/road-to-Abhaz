@@ -13,6 +13,15 @@ body {
   padding: 0%;
 }
 
+.main-menu {
+  display: flex;
+  max-height: 500px;
+}
+.main-menu img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .carousel-bar .carousel-item {
   display: flex;
   max-height: 500px;

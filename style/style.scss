@@ -11,6 +11,14 @@ body{
     padding: 0%;
    
 }
+.main-menu{
+    display: flex;
+    max-height: 500px;
+    
+    img{
+        object-fit: cover;
+        }
+}
     .carousel-bar .carousel-item{
         display: flex;
         max-height: 500px;
