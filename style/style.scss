@@ -40,5 +40,16 @@ body{
                     margin-left: auto;
                     margin-right: auto;
                 }
+                
             }
-         
+  
+    .article-text{
+      margin-top: 100px;
+    
+      .article-text-item{
+           margin-top: 100px;
+           border: solid 1px white;
+           padding: 5px;
+           border-radius: 10px;
+        }
+    }
