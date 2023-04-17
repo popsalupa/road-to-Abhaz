@@ -62,4 +62,9 @@ body {
   border: solid 1px white;
   padding: 5px;
   border-radius: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  font-family: "Righteous", cursive;
 }/*# sourceMappingURL=style.css.map */
